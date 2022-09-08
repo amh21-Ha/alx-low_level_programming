@@ -1,8 +1,10 @@
 #include <stdio.h> 
-/* header file
- *
+/**
+ * main - main function
+ * return - success(0)
  */
-int main(void) {
+int main(void) 
+{
        	puts("\"Programming is like building a multilingual puzzle"); 
 	return (0);
 }	
