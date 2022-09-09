@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers gose here */
-/* betty style doc for function main here */
+/** more headers gose here
+ * main - entry body
+ * Return - 0 (success)
+* betty style doc for function main here
+*/
 int main(void)
 {
 	int n;
