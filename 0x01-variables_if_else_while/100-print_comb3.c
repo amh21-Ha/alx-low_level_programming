@@ -15,7 +15,7 @@ int main(void)
 		{
 			putchar (a);
 			putchar (b);
-			if(a == '8' && b == '9')
+			if (a == '8' && b == '9')
 			{
 				putchar ('\n');
 			}
@@ -28,6 +28,6 @@ int main(void)
 		}
 		a++;
 	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
