@@ -13,21 +13,21 @@ int main(void)
 		b = a + 1;
 		while (b <= '9')
 		{
-			putchar (a);
-			putchar (b);
+			putchar(a);
+			putchar(b);
 			if (a == '8' && b == '9')
 			{
-				putchar ('\n');
+				putchar('\n');
 			}
 			else
 			{
-				putchar (',');
-				putchar (' ');
+				putchar(',');
+				putchar(' ');
 			}
 			b++;
 		}
 		a++;
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
