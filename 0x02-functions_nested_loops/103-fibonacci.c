@@ -14,7 +14,8 @@ int main(void)
 	unsigned long int fr1 = 0, bk1 = 1, fr2 = 0, bk2 = 2;
 	unsigned long int hold1, hold2, hold3;
 	int count;
-	
+
+	/* print bk1 and bk2 */
 	printf("%lu, %lu, ", bk1, bk2);
 	/* for loop */
 	for (count = 2; count < 98; count++)
