@@ -2,14 +2,13 @@
 
 /**
  * times_table - Print the 9 times table, starting with 0
- * Return: 0
+ * Return: 0 (Nothing retun)
  */
 
 void times_table(void)
 {
-	int x = 0; /* factor */
-	int y; /* count */
-	int z;
+	int x = 0;
+	int y, z;
 	
 	while (x < 10)
 	{
