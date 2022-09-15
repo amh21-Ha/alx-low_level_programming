@@ -23,5 +23,5 @@ int main(void)
 		i = k;
 	}
 	printf("%d\n", total);
-	return (0);
+	return (0); /* Return value 0 (success) */
 }
