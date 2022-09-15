@@ -8,8 +8,8 @@
 void times_table(void)
 {
 	int x = 0; /* factor */
-	int y; /* count  */
-	int z; /* computed value */
+	int y; /* count */
+	int z;
 	
 	while (x < 10)
 	{
