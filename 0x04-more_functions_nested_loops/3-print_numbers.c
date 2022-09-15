@@ -1,8 +1,6 @@
-nclude "main.h"
+#include "main.h"
 
 #include <unistd.h>
-
-
 
 /**
  * print_numbers - check main
