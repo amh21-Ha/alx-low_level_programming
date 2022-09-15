@@ -26,7 +26,8 @@ void jack_bauer(void)
 		if (c > 5)
 		{
 			c = 0;
-			b++;																																		}
+			b++;
+		}
 		if (b > 9)
 		{
 			b = 0;
