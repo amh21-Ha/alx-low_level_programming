@@ -3,14 +3,10 @@
 #include "main.h"
 
 /**
- *
  * print_times_table - check main
- *
  * @n: an integer input n
- *
  * Description: prints the n times table, starting with 0
  * Return: Nothing
- *
  */
 
 
