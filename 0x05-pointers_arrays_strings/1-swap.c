@@ -6,9 +6,10 @@
  * @b: take an int
  */
 
-void swap_int(int *a, int *b){
+void swap_int(int *a, int *b)
+{
 	int i = *a;
-	
+	/* pointer */
 	*a = *b;
 	*b = i;
 }
