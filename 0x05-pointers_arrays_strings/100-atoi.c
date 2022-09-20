@@ -2,18 +2,39 @@
 
 #include <stdio.h>
 
+
+
 /**
- * main - check the code
- * Return: Always 0.
+ * _atoi - converests a string to an integer
+ * @s: string to convert
+ * Return: numbre
  */
 
-int main(void)
+int _atoi(char *s)
 {
-	char s1[98];
-	char *ptr;
-	/* void */
-	ptr = _strcpy(s1, "First, solve the problem. Then, write the code\n");
-	printf("%s", s1);
-	printf("%s", ptr);
-	return (0);
+	int n, i, m;
+	/* while */
+	m = 1;
+	i = n = 0;
+	while ((s[i] < '0' || s[i] > '9') && s[i] != 0)
+	{
+		if (s[i] == '-')
+		m = m * -1;
+		i++;
+	}
+	while ((s[i] >= '0' && s[i] <= '9') && s[i] != 0)
+	{
+		if (n >= 0)
+		{
+			n = n * 10 - (s[i] - '0');
+			i++;
+		}
+		else
+		{
+			n = n * 10 - (s[i] - '0');
+			i++;
+		}
+	}
+	m = m * -1;
+	return (n * m);
 }
