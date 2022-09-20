@@ -18,7 +18,7 @@ int main(void)
 	int j = 0;
 	int k = 0;
 	time_t t;
-	
+	/* while loop */
 	srand((unsigned int) time(&t));
 	while (j < 2772)
 	{
