@@ -1,0 +1,1 @@
+Mor pointer and array
