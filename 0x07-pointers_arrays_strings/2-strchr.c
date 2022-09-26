@@ -3,6 +3,7 @@
 /**
  * _strchr - Locates a character in a string
  * @s: String
+ * @c: character buffer
  * @s: Character to search
  * Return: Pointer to the first occurrence of the character c in the string s
  */
