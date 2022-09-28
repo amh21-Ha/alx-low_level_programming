@@ -21,6 +21,7 @@ int _sqrt_recursion(int n)
 int natural_square(int x, int y)
 {
 	int s = y * y;
+
 	if (s > x)
 		return (-1);
 	if (s == x)
