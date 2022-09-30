@@ -1,17 +1,33 @@
-#include "main.h"
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <ctype.h>
 
 /**
- * _pow_recursion - returns the value of x raised to the power of y
- * @x: number to be raised
- * @y: power
- * Return: int of x to the power of y
-  */
+ * main - print the addition of two positive numbers.
+ * @argc: argument count or size of arguments.
+ * @argv: argument vector
+ * Return: 1 for less of 2 arguments or nondigit numbers, 0 success
+ */
 
-int _pow_recursion(int x, int y)
+int main(int argc, char **argv)
 {
-	if (y < 0)
-		return (-1);
-	else if (y == 0)
-		return (1);
-	return (x * _pow_recursion(x, y - 1));
+	int sum, i, j;
+
+	sum = 0;
+	for (i = 1; i < argc; i++)
+	{
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (!isdigit(argv[i][j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		sum += atoi(argv[i]);
+	}
+	printf("%d\n", sum);
+	return (0);
 }
