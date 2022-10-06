@@ -19,7 +19,7 @@ void _print(char *str, int l)
 			j = 1;
 		if (j || i == l - 1)
 			_putchar(str[i]);
-			i++;
+		i++;
 	}
 	_putchar('\n');
 	free(str);
@@ -116,7 +116,7 @@ int main(int argc, char *argv[])
 	{
 		for (ti = 0; e[ti]; ti++)
 			_putchar(e[ti]);
-			exit(98);
+		exit(98);
 	}
 	for (l1 = 0; argv[1][l1]; l1++)
 		;
