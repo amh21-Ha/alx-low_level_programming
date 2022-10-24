@@ -2,6 +2,7 @@
 
 /**
 * free_listint - a function that frees a listint_t list
+* @head: head of list
 * Return: nothing
 */
 
