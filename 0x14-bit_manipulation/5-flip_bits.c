@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-
  * flip_bits - calculates the number of bits needed
  * to get from one number to another
  * @n: base number
