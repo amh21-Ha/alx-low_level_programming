@@ -1,3 +1,8 @@
+/*
+ * File: 100-elf_header.c
+ * Auth: ZebbylionNjau
+ */
+
 #include <elf.h>
 
 #include <sys/types.h>
