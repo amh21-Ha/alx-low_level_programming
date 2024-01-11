@@ -9,16 +9,16 @@
  */
 unsigned int len_node(dlistint_t **node)
 {
-        unsigned int len = 0;
-        dlistint_t *start;
+	unsigned int len = 0;
+	dlistint_t *start;
 
-        start = *node;
-        while (start != NULL)
-        {
-                len += 1;
-                start = start->next;
-        }
-        return (len);
+	start = *node;
+	while (start != NULL)
+	{
+		len += 1;
+		start = start->next;
+	}
+	return (len);
 }
 
 /**
